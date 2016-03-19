@@ -1,6 +1,7 @@
-<meta>title:Upgrades|code:upgrades|desc:Learn how to run the upgrader for MyBB Wiki</meta>
+<meta>title:بروزرسانی‌ها|code:upgrades|desc:چگونه بروزرسان دانشنامه‌ی مای بی‌بی را اجرا کنیم</meta>
 
-# Upgrades
-Where possible, all upgrade scripts will be run automatically. MyBB Wiki does not, however, save backups of wiki articles for you. This must be done with the Import/Export function inside your Admin CP's Wiki module and on the article list before an upgrade or reinstall. As much as possible is saved in this process.
+# بروزرسانی‌ها
+تاجای ممکن، همه‌ی بروزرسانی‌ها به صورت خودکار اجرا می‌شوند.
+اگر دانشنامه‌ی مای بی‌بی اینکار را نکرد، برای گرفتن پشتیبان از مقاله‌ها خوب. شما باید از طریق بخش ورودی/خروجی گرفتن در ماژول دانشنامه‌ی پنل مای بی‌بی خود اقدام کنید و از آن پشتیبان بگیرید و سپس بروزرسانی را انجام داده و لیست مقاله‌های خودرا بازگردانی کنید. همه‌چیز تاجای ممکن در این فرایند حفظ می‌شوند.
 
-Upgrades also reset your settings and categories. Exported articles have the category in them and it has not (yet) been tested how the articles react with a non-existent category, but it should be only a minor issue.
+بروزرسانی ها همچنین تنظیمات و دسته‌بندی‌های شما را از بازنشانی می‌کنند. مقاله‌های خروجی گرفته شده دسته‌بندی ای دارند که  که ممکن است در دسته‌بندی‌های شما نباشد. هم‌اکنون واکنش مقاله‌ها نسبت به دسته‌بندی‌های ناموجود تست نشده‌است، ولی این فقط یک مشکل کوچک است.

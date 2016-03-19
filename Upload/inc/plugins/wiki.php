@@ -30,14 +30,14 @@ function wiki_info()
 	if(wiki_is_installed())
 	{
 		$append .= "<br />";
-		$append .= "<a href=\"index.php?module=wiki-settings\"><strong>[Settings]</strong></a>";
-		$append .= " <a href=\"index.php?module=wiki-perms\"><strong>[Permissions]</strong></a>";
-		$append .= " <a href=\"index.php?module=wiki-docs\"><strong>[Docs]</strong></a>";
+		$append .= "<a href=\"index.php?module=wiki-settings\"><strong>[تنظیمات]</strong></a>";
+		$append .= " <a href=\"index.php?module=wiki-perms\"><strong>[دسترسی‌ها]</strong></a>";
+		$append .= " <a href=\"index.php?module=wiki-docs\"><strong>[مستندات]</strong></a>";
 	}
 
 	return array(
-		'name'          =>  'MyBB Wiki',
-		'description'   =>  "Adds a simple Wiki to your MyBB Forum.{$append}",
+		'name'          =>  'دانشنامه‌ی مای بی‌بی',
+		'description'   =>  "افزودن یک دانشنامه به انجمن مای بی‌بی شما<br />ترجمه شده توسط <a href=\"http://my-bb.ir\" target=\"_blank\">AliReza_Tofighi</a>.{$append}",
 		'website'       =>  'https://github.com/Krytic/MyBB-Wiki" id="mybbwiki',
 		'author'        =>  'Adamas',
 		'authorsite'    =>  'https://github.com/Krytic/MyBB-Wiki',

@@ -100,7 +100,7 @@ class WikiInstaller
 
 		$insert_array = array(
 			'name'        => 'wiki_enable',
-			'title'            => 'Power Switch',
+			'title'            => 'خاموش/روشن',
 			'optionscode'    => 'onoff',
 			'value'        => '1',
 			);
@@ -108,7 +108,7 @@ class WikiInstaller
 
 		$insert_array = array(
 			'name'        => 'wiki_parse_smileys',
-			'title'            => 'Parse Smilies?',
+			'title'            => 'تجزیه‌ی شکلک‌ها؟',
 			'optionscode'    => 'yesno',
 			'value'        => 0,
 			);
@@ -116,7 +116,7 @@ class WikiInstaller
 
 		$insert_array = array(
 			'name'        => 'wiki_mybbparser',
-			'title'            => 'Use the MyBB Parser?',
+			'title'            => 'از تجزیه‌گر مای بی‌بی استفاده کند؟',
 			'optionscode'    => 'yesno',
 			'value'        => 1,
 			);
@@ -124,7 +124,7 @@ class WikiInstaller
 
 		$insert_array = array(
 			'name'        => 'wiki_markdown',
-			'title'            => 'Use Markdown Parser?',
+			'title'            => 'از تجزیه‌گر Markdown استفاده کند؟',
 			'optionscode'    => 'yesno',
 			'value'        => 1,
 			);
@@ -132,7 +132,7 @@ class WikiInstaller
 
 		$insert_array = array(
 			'name'        => 'wiki_mycode_editor',
-			'title'            => 'Clickable MyCode editor',
+			'title'            => 'ویرایشگر قابل کلیک مای‌کد',
 			'optionscode'    => 'yesno',
 			'value'        => '1',
 			);
@@ -140,7 +140,7 @@ class WikiInstaller
 
 		$insert_array = array(
 			'name'        => 'wiki_parse_html',
-			'title'            => 'Parse HTML?',
+			'title'            => 'HTML را تجزیه کند؟',
 			'optionscode'    => 'yesno',
 			'value'        => 0,
 			);
@@ -148,7 +148,7 @@ class WikiInstaller
 
 		$insert_array = array(
 			'name'        => 'wiki_export_allowed',
-			'title'            => 'Exporting Enabled?',
+			'title'            => 'خروجی‌گرفتن فعال باشد؟',
 			'optionscode'    => 'yesno',
 			'value'        => 1,
 			);
@@ -212,7 +212,7 @@ class WikiInstaller
 
 		$cache->update('wiki_permissions', $cache_arr);
 
-		$db->write_query("INSERT INTO " . TABLE_PREFIX . "wiki_categories(title) VALUES('Meta')");
+		$db->write_query("INSERT INTO " . TABLE_PREFIX . "wiki_categories(title) VALUES('عمومی')");
 
 		return true;
 	}

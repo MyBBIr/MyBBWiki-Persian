@@ -1,5 +1,5 @@
-<meta>title:Home|code:Home|desc:The complete documentation for MyBB Wiki</meta>
+<meta>title:خانه|code:Home|desc:مستندات کامل برای دانشنامه مای بی‌بی</meta>
 
-MyBB Wiki
+دانشنامه‌ی مای بی‌بی
 ---
-Welcome to MyBB Wiki. The purpose of this documentation is to familiarize you with the plugin, how it works, and how to extend it's functionality.
+به دانشنامه‌ی مای بی‌بی خوش آمدید. این مستندات آماده شده شما را با پلاگین، روند کار آن و چگونگی توسعه‌ی آن آشنا می‌کند.
